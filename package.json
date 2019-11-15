@@ -8,15 +8,11 @@
     "ink-docstrap": "^1.3.2",
     "npm": "^6.11.3"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0"
-  },
   "scripts": {
-    "deploy": "clasp push && jsdoc -c conf.json -t ./node_modules/ink-docstrap/template -R README.md -r src/",
-    "update": "git fetch && clasp pull"
+    "deploy": "clasp push",
+    "update": "git fetch && clasp pull",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -28,8 +24,8 @@
     "approval workflow",
     "addons"
   ],
-  "author": "Kunanon S.",
-  "license": "CC-BY-SA-4.0",
+  "author": "Kunanon Srisuntiroj",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/sagelga/approval-google-addons/issues"
   },

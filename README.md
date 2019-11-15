@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/en/f/f2/Google_Apps_Script.png)
+![Google Apps Script Logo photo (by Wikipedia)](https://upload.wikimedia.org/wikipedia/en/f/f2/Google_Apps_Script.png)
 
 # Google App Script Approval Workflow
 
@@ -18,21 +18,15 @@ This script is part of Cooperative Study report and code is copyleft. For more i
 
 ## How to use
 
-To apply the script to Google Apps Script (in the name of Google Sheets), create a `.gs` file in Google Apps Script text editor and copy all the source code (JavaScript) in `src/`.
+To automatically upload the script to Google Apps Script, you can use clasp to allows you to develop Google Apps Script on your device.
 
-Do note that the file name does not effect workflow perfomance. Just only a debugging sake.
-
-## User Manual
-
-Please check out [https://www.notion.so/son9912/Approval-Workflow-Process-7e8e9f5b36fd46f791c6660db69358a0](https://www.notion.so/son9912/Approval-Workflow-Process-7e8e9f5b36fd46f791c6660db69358a0).
-
-User manual is stored in Notion. On clicking on the following link, you agreed to Terms and Conditions of Notion service.
+All of the script is in `/src/` folder and it is later divided into groups of functions that work the similar way (or depend on each other)
 
 ## Development Documentation
 
-For more information about the function usage, visit the documentation [https://sagelga.github.io/approval-google-addons/](https://sagelga.github.io/approval-google-addons/global.html#).
+You can read about how to use each function
 
 ## License
 
-THIS REPOSITORY IS LICENSED AS CC-BY-SA-4.0 .<br>
-For more information, please read our license inside the LICENSE.md
+This repository is licensed as Apache License 2.0<br>
+For more information, read our [LICENSE](LICENSE)
