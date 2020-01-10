@@ -1,33 +1,14 @@
 {
-  "name": "approval-google-addons",
+  "name": "approval-workflow",
   "version": "1.0.0",
-  "description": "Google Addons for supplier information input workflow",
-  "main": "Main.js",
-  "dependencies": {
-    "@types/google-apps-script": "0.0.54",
-    "ink-docstrap": "^1.3.2",
-    "npm": "^6.11.3"
-  },
+  "description": "Approval Workflow using Google Apps Script",
+  "main": "src/main.js",
+  "repository": "git@github.com:sagelga/approval-workflow.git",
+  "author": "Kunanon Srisuntiroj <son9912@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {},
   "scripts": {
     "deploy": "clasp push",
-    "update": "git fetch && clasp pull",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sagelga/approval-google-addons.git"
-  },
-  "keywords": [
-    "workflow",
-    "google apps script",
-    "approval workflow",
-    "addons"
-  ],
-  "author": "Kunanon Srisuntiroj",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/sagelga/approval-google-addons/issues"
-  },
-  "homepage": "https://github.com/sagelga/approval-google-addons#readme"
+    "update": "git fetch && clasp pull"
+  }
 }
