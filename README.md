@@ -24,7 +24,7 @@ All of the script is in `/src/` folder and it is later divided into groups of fu
 
 ## Development Documentation
 
-You can read about how to use each function
+You can read about how to use each function here : [docs.sagelga.com/approval-workflow/](docs.sagelga.com/approval-workflow/)
 
 ## License
 
