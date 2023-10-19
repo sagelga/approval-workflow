@@ -1,32 +1,25 @@
-![Google Apps Script Logo photo (by Wikipedia)](https://upload.wikimedia.org/wikipedia/en/f/f2/Google_Apps_Script.png)
+![Google_Apps_Script svg (1)](https://github.com/sagelga/approval-workflow/assets/13056824/b518d35d-8d0c-4457-8a34-94f553eea042)
 
-# Google App Script Approval Workflow
 
-A Google App Script workflow script, built for Google Sheets.<br>
-All you need is a Google Sheets that links to your Google Form (as request form) and another form as approval form.<br>
 
-For more information about how to apply the script to your needs, checkout the documentation for details.
+# Approval Workflow for Google Apps Script
 
-This script is part of Cooperative Study report and code is copyleft. For more information, read LICENSE file on what you can do with the code.
+Streamline your approval processes with the Google Apps Script Approval Workflow. This script is designed as an extension for Google Sheets, offering seamless integration with your Google Forms as a request form and another form as an approval form.
 
-## Table of Contents
+This project originated from a Cooperative Study report and is released under a copyleft license. For more information about the terms of use, please refer to the LICENSE file.
 
-- How to use
-- User Manual
-- Development Documentation
-- License
+## How to Use
+Automatically deploy the script to Google Apps Script using clasp, a tool that facilitates Google Apps Script development directly on your device.
 
-## How to use
+All script files are located in the /src/ folder and organized into functional groups, making it easier to identify related functions or interdependencies.
 
-To automatically upload the script to Google Apps Script, you can use clasp to allows you to develop Google Apps Script on your device.
-
-All of the script is in `/src/` folder and it is later divided into groups of functions that work the similar way (or depend on each other)
+## User Manual
+For comprehensive instructions on how to utilize each function, visit our User Manual.
 
 ## Development Documentation
-
-You can read about how to use each function here : [docs.sagelga.com/approval-workflow/](docs.sagelga.com/approval-workflow/)
+Detailed documentation for developers can be found at [https://docs.sagelga.com/approval-workflow/](https://docs.sagelga.com/approval-workflow/). This resource covers the implementation details and usage guidelines for every function.
 
 ## License
+This repository is licensed under the Apache License 2.0. Feel free to review the terms and conditions outlined in the license file.
 
-This repository is licensed as Apache License 2.0<br>
-For more information, read our [LICENSE](LICENSE)
+For further inquiries or collaboration opportunities, please contact us at your convenience.
